@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "64c142052739ade1f7eff6da9b10fac2",
+    "revision": "1d875b1bcc1724e4bbbd3ec9c60162b6",
     "url": "/weather-go/index.html"
   },
   {
-    "revision": "2e1ce0de6ecd6e796ef2",
+    "revision": "56561778447d1f61946a",
     "url": "/weather-go/static/css/main.68152fae.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/weather-go/static/js/2.b933dc82.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "2e1ce0de6ecd6e796ef2",
-    "url": "/weather-go/static/js/main.c16b0914.chunk.js"
+    "revision": "56561778447d1f61946a",
+    "url": "/weather-go/static/js/main.a62b561c.chunk.js"
   },
   {
     "revision": "1877a273e3e87976136d",
