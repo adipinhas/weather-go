@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/weather-go/static/css/main.68152fae.chunk.css",
-    "main.js": "/weather-go/static/js/main.fec64df4.chunk.js",
-    "main.js.map": "/weather-go/static/js/main.fec64df4.chunk.js.map",
+    "main.js": "/weather-go/static/js/main.c16b0914.chunk.js",
+    "main.js.map": "/weather-go/static/js/main.c16b0914.chunk.js.map",
     "runtime-main.js": "/weather-go/static/js/runtime-main.2f1e50ce.js",
     "runtime-main.js.map": "/weather-go/static/js/runtime-main.2f1e50ce.js.map",
     "static/js/2.b933dc82.chunk.js": "/weather-go/static/js/2.b933dc82.chunk.js",
     "static/js/2.b933dc82.chunk.js.map": "/weather-go/static/js/2.b933dc82.chunk.js.map",
     "index.html": "/weather-go/index.html",
-    "precache-manifest.ab9ac5fd85a5b642128e5f0f48a31466.js": "/weather-go/precache-manifest.ab9ac5fd85a5b642128e5f0f48a31466.js",
+    "precache-manifest.649dd9802392285e59a3c534dc8cbac4.js": "/weather-go/precache-manifest.649dd9802392285e59a3c534dc8cbac4.js",
     "service-worker.js": "/weather-go/service-worker.js",
     "static/css/main.68152fae.chunk.css.map": "/weather-go/static/css/main.68152fae.chunk.css.map",
     "static/js/2.b933dc82.chunk.js.LICENSE.txt": "/weather-go/static/js/2.b933dc82.chunk.js.LICENSE.txt",
@@ -18,6 +18,6 @@
     "static/js/runtime-main.2f1e50ce.js",
     "static/js/2.b933dc82.chunk.js",
     "static/css/main.68152fae.chunk.css",
-    "static/js/main.fec64df4.chunk.js"
+    "static/js/main.c16b0914.chunk.js"
   ]
 }
