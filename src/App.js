@@ -1,26 +1,43 @@
 import React from 'react';
+import {Route, Switch, Router,Link} from 'react-router-dom'
 import logo from './logo.svg';
 import './App.css';
+import {connect} from 'react-redux'
+import Counter from './cmps/Counter'
+import Home from './cmps/Home'
+import Favorites from './cmps/Favorites'
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <nav className="navbar">
+        <Link to='/favorites'>FAVORITES </Link>|
+        <Link to='/jerusalem/213225'> HOME</Link>
+      </nav>
+     
+     
+      <Switch>
+        <Route
+        exact
+        path='/favorites'
+        component ={Favorites}>
+        </Route>
+
+        <Route
+        exact
+        path='/:city/:code'
+        component ={Home}>
+        </Route>
+      </Switch>
+      {/* <Counter></Counter> */}
+      {/* <Home></Home> */}
     </div>
   );
 }
+const mapStateToProps = state =>{
+  return {
+    ctr:state.counter
+  }
+};
 
-export default App;
+export default connect(mapStateToProps)(App) ;

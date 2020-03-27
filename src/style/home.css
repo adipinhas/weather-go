@@ -1,0 +1,60 @@
+.home{
+    background: #323d47;
+    height: 100vh;
+    width: 100vw;
+}
+
+.form {
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    background-color: unset;
+    left: 6%;
+    top: 6%;
+    font-size:1.5rem ;
+    z-index: 40;
+}
+.input{
+    width: 200px;
+    background-color: unset;
+    border-radius: 10px;
+    border: white 1px solid;
+    color: white;
+    height: 25px;
+    font-size: 1rem;
+}
+.button{
+    background-color: rgba(167, 167, 167, 0.342);
+    border-radius: 5px;
+    border: 1px white solid;
+    color: white;
+}
+.name{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    position: fixed;
+    background-color: unset;
+    height: 116px;
+    left: 6%;
+    top: 5%;
+    font-size: 1.5rem;
+    color: white;
+
+}
+.goSearchButton{
+   background-color: unset;
+   border: unset;
+   color: white;
+
+}
+.modal{
+    position: fixed;
+    height:100vh;
+    width: 100vw;
+    background-color: rgba(0, 0, 0, 0.705);
+    z-index: 30;
+}
+.save-icon{
+    position: fixed;
+}

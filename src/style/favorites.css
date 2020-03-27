@@ -1,0 +1,15 @@
+.favorites{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: start;
+    align-items: center;
+    flex-direction: column;
+    background-color: black;
+    color: rgb(211, 206, 206);
+    height: 100vh;
+    width: 100vw;
+}
+
+.favorites *{
+    margin: 1rem;
+}
